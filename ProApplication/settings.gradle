@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ProApplication"
+include ':app'
+include ':proapplication1'
+include ':Eventapplication'
+include ':myapplication'
+include ':jetpack'
+include ':mylibrary'
+include ':pro2application'
